@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyterappeng"
+version = "0.1.0"
+authors = [
+  { name="TheRealPchol", email="therealpchol7@gmail.com" },
+]
+description = "An ultra-lightweight and simple Python engine designed for building text-based terminal applications with dynamic line buffering and rendering support."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com"
